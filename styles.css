@@ -1,6 +1,47 @@
+#page {
+  padding: 0;
+  width: 1120px;
+  background-color: #f0e8c2;
+  margin: 48px auto 28px;
+  box-sizing: border-box;
+}
+
+.text-primary{
+  color: red;
+}
+
 #upper{
   color: #E1624F;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1rem;
 }
+
+#main_image{
+  width: 1120px;
+  height: 660px;
+}
+
+img{
+  border-radius: 28px;
+}
+
+#demo_img{
+  width: 1120px;
+  height: 350px;
+}
+
+p{
+  color: #333333;
+}
+
+footer{
+  color: #f0e8c2;
+  text-align: center;
+  padding: 48px;
+}
+
+footer img{
+  vertical-align: middle;
+}
+
