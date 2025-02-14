@@ -1,13 +1,34 @@
+body{
+  background-color: #F5F5F5;
+}
+
 #page {
   padding: 0;
   width: 1120px;
-  background-color: #f0e8c2;
   margin: 48px auto 28px;
   box-sizing: border-box;
+  font-family: "Open Sans", serif;
+}
+
+#border{
+  border-bottom: 1px solid;
+}
+
+#main_img_desc{
+  margin: 40px 0px 40px 0px;
+}
+
+#descricao_da_imagem_principal{
+  text-align: center;
+}
+
+#descubra_apr{
+ 
+  margin: 65px 0px 65px 0px;
 }
 
 .text-primary{
-  color: red;
+  color: #1B1B1B;
 }
 
 #upper{
@@ -31,12 +52,71 @@ img{
   height: 350px;
 }
 
+.templo{
+  margin-bottom: 48px;
+}
+
+#Youngdusan{
+  margin-bottom: 40px;
+}
+
+#destinos{
+  border-bottom: 1px solid;
+  border-color: #333333;
+}
+
+.bolder{
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
 p{
   color: #333333;
 }
 
+#historia{
+  font-weight: bold;
+  color: #0C51A7;
+  padding-left: 10px;
+}
+
+#casais{
+  font-weight: bold;
+  color: #591B98;
+  padding-left: 10px;
+}
+
+#familia{
+  font-weight: bold;
+  color: #E5245E;
+  padding-left: 10px;
+}
+
+#orcamento{
+  font-weight: bold;
+  padding-left: 10px;
+  color: #E95E10;
+}
+
+#historia::marker{
+  color: #1B1B1B;
+}
+#casais::marker{
+  color: #1B1B1B;
+}
+#familia::marker{
+  color: #1B1B1B;
+}
+#orcamento::marker{
+  color: #1B1B1B;
+}
+
+#texto_final{
+  text-align: center;
+}
+
 footer{
-  color: #f0e8c2;
+  color: #333333;
   text-align: center;
   padding: 48px;
 }
